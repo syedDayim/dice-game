@@ -1,16 +1,16 @@
 import { useState } from 'react'
-
-import './App.css'
 import GameStart from './Components/GameStart'
+import GameHome from './Components/GameHome'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
+  const [isGameStarted, setIsGameStarted] = useState(true)
+  function handleHomepage(){
+    setIsGameStarted((prev) => !prev)
+  }
   return (
     <>
-        <GameStart/>
+      {isGameStarted ? <GameHome /> : <GameStart onClick={handleHomepage} />}
     </>
   )
 }
 
-export default App

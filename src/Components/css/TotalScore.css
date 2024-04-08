@@ -1,0 +1,17 @@
+.score-container{
+    max-width: 135px;
+    display: flex;
+    flex-direction: column;
+    /* background-color:  red; */
+    align-items: center;
+    justify-content: center;
+    
+}
+.score-container h1 {
+
+    font-size: 40px;
+}
+
+.score-container p {
+    font-size: 24px;
+}

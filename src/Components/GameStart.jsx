@@ -1,7 +1,6 @@
 import '../Components/css/GameStart.css';
 
-
-export default function GameStart() {
+export default function GameStart(props) {
   return (
     <>
         
@@ -12,7 +11,7 @@ export default function GameStart() {
 
         <div className="text-container">
           <h1>Shuraa Digital</h1>
-          <button>Play Now</button>
+          <button onClick={props.onClick}>Play Now</button>
         </div>
       </div>
     
