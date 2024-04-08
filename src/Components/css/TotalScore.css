@@ -13,5 +13,7 @@
 }
 
 .score-container p {
+    font-weight:normal;
+    text-wrap: nowrap;
     font-size: 24px;
 }

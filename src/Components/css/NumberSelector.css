@@ -6,7 +6,7 @@
 }
 
 .comp-holder {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,5 +30,6 @@
 }
 
 .paragraph {
-  padding: 0;
+  font-weight: bold;
+  font-size: 24px;
 }
