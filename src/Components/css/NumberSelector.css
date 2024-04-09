@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: flex-start;
   border: 2px ;
+  height: fit-content;
+
 }
 
 .comp-holder {

@@ -1,14 +1,14 @@
 import "./css/DiceRoller.css";
 
-export default function DiceRoller(){
-    return(
+export default function DiceRoller({handleRoll, diceValue}) {
+    
+    
+    return (
         <>
-            <div className="dice">
-                <img src="./dice/dice_1.png" alt="" width={250} height={250} />
-
-
+            <div className="dice" onClick={handleRoll}>
+                <img src={`./dice/dice_${diceValue}.png`} alt="" width={250} height={250} />
+                <p>Click on the dice to roll</p>
             </div>
         </>
-
     )
 }

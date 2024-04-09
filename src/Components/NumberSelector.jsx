@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './css/NumberSelector.css';
-export default function NumberSelector() {
-  const [selectedNumber, setSelectedNumber] = useState()
-  const numbers = [1, 2, 3, 4, 5, 6]
+export default function NumberSelector({selectedNumber, setSelectedNumber, numbers, error}) {
+ 
 
 
   const selectedStyle = {
@@ -20,7 +19,7 @@ export default function NumberSelector() {
   return (
     <>
       <div className="comp-holder">
-
+      {error}
         <div className="box-container">
           {
 
