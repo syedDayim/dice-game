@@ -29,7 +29,7 @@ function GameHome(props) {
       setScore(prev => prev + newNum)
     }
     else{
-      setScore(prev => prev - newNum);
+      setScore(prev => Math.max(prev - newNum, 0));
     }
 
     setSelectedNumber(undefined)

@@ -10,7 +10,7 @@ export default function GameStart(props) {
         </div>
 
         <div className="text-container">
-          <h1>Shuraa Digital</h1>
+          <h1>Dice Game</h1>
           <button onClick={props.onClick}>Play Now</button>
         </div>
       </div>
