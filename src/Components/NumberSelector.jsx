@@ -16,7 +16,6 @@ export default function NumberSelector() {
 
   
 
-console.log(selectedNumber)
 
   return (
     <>

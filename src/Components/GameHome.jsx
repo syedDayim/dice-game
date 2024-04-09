@@ -1,6 +1,8 @@
-import React from 'react'
-import TotalScore from './TotalScore'
-import NumberSelector from './NumberSelector'
+import React from 'react';
+import TotalScore from './TotalScore';
+import NumberSelector from './NumberSelector';
+import DiceRoller from './DiceRoller';
+
 
 function GameHome(props) {
   return (
@@ -9,6 +11,7 @@ function GameHome(props) {
       <TotalScore />
       <NumberSelector />
     </div>
+      <DiceRoller/>
     </>
   )
 }
